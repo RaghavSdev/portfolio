@@ -25,81 +25,78 @@
 
 <br />
 
-## ⚡ Overview & Vision
+## 📸 Section-by-Section Visual Showcase
 
-> *"Building intelligent models and deploying them at scale."*
+Here is a visual walkthrough of every section of the portfolio, step-by-step:
 
-Welcome to the official repository for **Raghav S**'s v2 Developer Portfolio. Engineered with **Next.js 16 (App Router)**, **Tailwind CSS v4**, and custom graphics & Web Audio engines.
+### 1️⃣ Hero Section & Navigation
+> *Kinetic line mask headline, typewriter roles, 120fps magnetic cursor, and direct CTA controls.*
+<p align="center">
+  <img src="public/raghavsdev_portfolio.png" width="95%" alt="01 Hero Section Showcase" />
+</p>
 
-```
-                  ┌─────────────────────────────────────────────────────────┐
-                  │                 RAGHAV S PORTFOLIO V2                   │
-                  └────────────────────────────┬────────────────────────────┘
-                                               │
-       ┌───────────────────────┬───────────────┴───────────────┬───────────────────────┐
-       ▼                       ▼                               ▼                       ▼
-┌──────────────┐       ┌──────────────┐                ┌──────────────┐        ┌──────────────┐
-│  HERO ENGINE │       │ ABOUT STORY  │                │ FEATURED AI  │        │ CONNECT HUB  │
-│ Typewriter   │       │ Education &  │                │ Projects &   │        │ Light Matrix │
-│ 120fps Cursor│       │ Oracle 86%   │                │ Live Repos   │        │ Vinyl Player │
-└──────────────┘       └──────────────┘                └──────────────┘        └──────────────┘
-```
+<br />
+
+### 2️⃣ Story & About Section
+> *Profile card, direct contact (Phone: +91 8807178840, Email: cdj90000@gmail.com), education at Sri Krishna College, and Oracle 86% Gen AI Certification.*
+<p align="center">
+  <img src="public/rag_screenshot_real.png" width="95%" alt="02 About & Philosophy Showcase" />
+</p>
+
+<br />
+
+### 3️⃣ Creations & Featured Projects
+> *Interactive 3D tilt cards showcasing RAG-Vision-AI, Plant Disease Prediction (98%), Placement Management System, and DigitalAudio.*
+<p align="center">
+  <img src="public/rag_chat_demo_real.png" width="95%" alt="03 Creations & Projects Showcase" />
+</p>
+
+<br />
+
+### 4️⃣ Live Commercial Client Showcase (DigitalAudio)
+> *Live commercial responsive website deployed on Vercel presenting home theater installations, pro audio rental, and acoustic consultation.*
+<p align="center">
+  <img src="public/digital_audio_real.png" width="95%" alt="04 DigitalAudio Commercial Showcase" />
+</p>
+
+<br />
+
+### 5️⃣ Milestones & Engineering Timeline
+> *Software Development Intern role (React, Spring Boot, MySQL, AWS deployment), verified metrics grid, and skill matrices.*
+<p align="center">
+  <img src="public/project1.png" width="95%" alt="05 Milestones & Timeline Showcase" />
+</p>
+
+<br />
+
+### 6️⃣ Connect Hub & Light-Up Matrix Background
+> *Full-background interactive 40px grid matrix in Connect section with neon flame trail highlights (`#f84525`) on hover.*
+<p align="center">
+  <img src="public/project2.png" width="95%" alt="06 Connect Hub & Matrix Grid Showcase" />
+</p>
+
+<br />
+
+### 7️⃣ Side-Docked Vinyl Turntable Player
+> *Tactile mini vinyl turntable playing Borderline by Tame Impala (1.2x) with animated tonearm needle and spinning 33 RPM disc.*
+<p align="center">
+  <img src="public/project3.png" width="95%" alt="07 Vinyl Player Showcase" />
+</p>
 
 <br />
 
 <!-- Animated Flame Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Flame Wave Divider" />
 
-## ✨ Key Portfolio Animations & Interactive Features
+## ✨ Key Technical Innovations
 
-| Interactive Feature | Tech & Animation Engine | Visual Description |
+| Interactive Component | File Location | Engineering Highlights |
 | :--- | :--- | :--- |
-| **🕹️ 120fps 3D Tilt Cards** | `Effects.tsx` (RAF Direct Transforms) | Real-time 3D card tilt tracking with zero latency and smooth cubic-bezier return. |
-| **🌌 Constellation Starfield** | `ConstellationCanvas.tsx` (Canvas API) | Dynamic particle constellation starfield background mapped across page sections. |
-| **🎆 Light-Up Matrix Grid** | `InteractiveBackgroundGrid.tsx` | Full-section 40px grid matrix in Connect section lighting up with neon flame trails (`#f84525`) on hover. |
-| **🎶 Vinyl Turntable Player** | `VinylTurntablePlayer.tsx` | Side-docked vinyl player playing *Borderline by Tame Impala* (1.2x) with animated tonearm needle & 33 RPM disc. |
-| **📄 In-App Resume Viewer** | `ResumeModal.tsx` | Interactive PDF viewer modal for `raghav_s_resume.pdf` with full-screen reading. |
-
-<br />
-
-<!-- Animated Flame Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Flame Wave Divider" />
-
-## 🚀 Featured Projects
-
-<details open>
-<summary><strong>1. RAG-Vision-AI (Live AI Web App)</strong></summary>
-<br />
-
-- **Tech Stack**: Python, FAISS Vector Search, Generative AI, SSE Streaming, React
-- **Live Demo**: [raghavsdev.github.io/RAG-Vision-AI](https://raghavsdev.github.io/RAG-Vision-AI/)
-- **Description**: Advanced Retrieval-Augmented Generation (RAG) chatbot with FAISS vector memory and real-time streaming AI responses.
-</details>
-
-<details open>
-<summary><strong>2. Plant Disease Prediction ML Model (98% Accuracy)</strong></summary>
-<br />
-
-- **Tech Stack**: Python, scikit-learn, Deep Learning, Image Classification
-- **Description**: Machine learning classification model trained on plant image datasets to classify crop diseases with 98% accuracy.
-</details>
-
-<details open>
-<summary><strong>3. Placement & Recruitment Management System</strong></summary>
-<br />
-
-- **Tech Stack**: React, Spring Boot, MySQL, AWS Cloud Deployment
-- **Description**: Full-stack enterprise recruitment workflow system automating student-recruiter data management and AWS deployment.
-</details>
-
-<details open>
-<summary><strong>4. DigitalAudio Website (Commercial Site)</strong></summary>
-<br />
-
-- **Tech Stack**: HTML5, CSS3, JavaScript, UI/UX Design
-- **Live Demo**: [digitalaudioo.vercel.app](https://digitalaudioo.vercel.app/)
-- **Description**: Responsive commercial website for audio solutions business in Coimbatore.
-</details>
+| **🕹️ 120fps 3D Tilt Cards** | `src/components/Effects.tsx` | Hardware-accelerated direct mouse-tracking 3D tilt with zero latency and cubic-bezier spring return. |
+| **🌌 Constellation Starfield** | `src/components/ConstellationCanvas.tsx` | Dynamic particle constellation starfield background mapped across page sections. |
+| **🎆 Light-Up Matrix Grid** | `src/components/InteractiveBackgroundGrid.tsx` | Canvas 2D grid matrix lighting up with neon flame trail splashes (`#f84525`) behind cursor. |
+| **🎶 Vinyl Turntable Player** | `src/components/VinylTurntablePlayer.tsx` | Side-docked vinyl player playing *Borderline by Tame Impala* (1.2x) with tonearm needle & spinning disc. |
+| **📄 In-App Resume Viewer** | `src/components/ResumeModal.tsx` | Interactive PDF viewer modal for `raghav_s_resume.pdf` with full-screen reading. |
 
 <br />
 
