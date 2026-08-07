@@ -25,57 +25,60 @@
 
 <br />
 
-## 📸 Real Live Portfolio Walkthrough (Original Screenshots)
+## 🎬 Live Interactive Previews (Animated Motion)
 
-Below are the **real live original screenshots** captured directly from the running website, section-by-section in sequential order:
+Experience the live portfolio micro-interactions and animations directly in action:
 
 ---
 
-### 1️⃣ Hero Section & Interactive Controls
-> *Kinetic line mask headline, dynamic typewriter roles, status badge, and View Resume in-app modal launcher.*
+### 1️⃣ Live Hero Typewriter & Magnetic Cursor
+> *Real-time typewriter role animation, 120fps magnetic cursor, kinetic flame title, and direct View Resume modal launcher.*
 <p align="center">
-  <img src="public/screenshots/01_hero.png" width="95%" alt="Real OG Hero Section Screenshot" />
+  <img src="public/screenshots/01_animated_hero.gif" width="95%" alt="Live Animated Hero Showcase" />
 </p>
 
 ---
 
-### 2️⃣ Story & About Section
-> *Profile card, direct contact (Phone: +91 8807178840, Email: cdj90000@gmail.com), education at Sri Krishna College, and Oracle 86% Gen AI Certification card.*
+### 2️⃣ Live 120fps Hardware-Accelerated 3D Tilt Cards
+> *Direct mouse-tracking 3D tilt interaction with zero latency, dynamic border lighting, and cubic-bezier spring return.*
 <p align="center">
-  <img src="public/screenshots/02_about.png" width="95%" alt="Real OG About Section Screenshot" />
+  <img src="public/screenshots/02_animated_3d_tilt.gif" width="95%" alt="Live Animated 3D Tilt Card Showcase" />
 </p>
 
 ---
+
+### 3️⃣ Live Light-Up Matrix Background & Side Vinyl Player
+> *Full-section 40px grid matrix lighting up with neon flame trail splashes (`#f84525`) behind cursor, paired with the side-docked Vinyl Turntable Player playing Borderline by Tame Impala at 1.2x speed.*
+<p align="center">
+  <img src="public/screenshots/03_animated_matrix_and_vinyl.gif" width="95%" alt="Live Animated Light Matrix & Vinyl Player Showcase" />
+</p>
+
+<br />
+
+<!-- Animated Flame Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Flame Wave Divider" />
+
+## 📸 Section-by-Section Visual Showcase
+
+Below is the complete section-by-section walkthrough of the portfolio:
+
+### 1️⃣ Hero Section
+<p align="center"><img src="public/screenshots/01_hero.png" width="95%" alt="Hero Section Screenshot" /></p>
+
+### 2️⃣ About & Philosophy
+<p align="center"><img src="public/screenshots/02_about.png" width="95%" alt="About Section Screenshot" /></p>
 
 ### 3️⃣ Creations & Featured AI Projects Grid
-> *Hardware-accelerated 3D tilt cards showcasing RAG-Vision-AI, Plant Disease Prediction (98%), Placement Management System, Student Grade Prediction, and DigitalAudio.*
-<p align="center">
-  <img src="public/screenshots/03_projects.png" width="95%" alt="Real OG Projects Grid Screenshot" />
-</p>
-
----
+<p align="center"><img src="public/screenshots/03_projects.png" width="95%" alt="Projects Grid Screenshot" /></p>
 
 ### 4️⃣ Milestones & Engineering Experience
-> *Software Development Intern timeline (React, Spring Boot, MySQL, AWS deployment) and verified metrics grid.*
-<p align="center">
-  <img src="public/screenshots/04_experience.png" width="95%" alt="Real OG Experience & Milestones Screenshot" />
-</p>
+<p align="center"><img src="public/screenshots/04_experience.png" width="95%" alt="Milestones Screenshot" /></p>
 
----
+### 5️⃣ Connect Hub & Light-Up Matrix Background
+<p align="center"><img src="public/screenshots/05_connect.png" width="95%" alt="Connect Section Screenshot" /></p>
 
-### 5️⃣ Connect Hub, Light-Up Matrix Background & Vinyl Turntable Player
-> *Interactive 40px grid matrix lighting up with neon flame trail splashes (`#f84525`) on hover, paired with the side-docked Vinyl Turntable Player playing Borderline by Tame Impala (1.2x speed).*
-<p align="center">
-  <img src="public/screenshots/05_connect.png" width="95%" alt="Real OG Connect Section & Matrix Grid Screenshot" />
-</p>
-
----
-
-### 6️⃣ Complete Full Page Overview
-> *Full high-resolution vertical overview of the entire portfolio application.*
-<p align="center">
-  <img src="public/screenshots/06_full_page.png" width="95%" alt="Real OG Full Page Screenshot" />
-</p>
+### 6️⃣ Full Page Overview
+<p align="center"><img src="public/screenshots/06_full_page.png" width="95%" alt="Full Page Overview Screenshot" /></p>
 
 <br />
 
