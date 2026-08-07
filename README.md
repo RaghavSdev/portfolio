@@ -25,62 +25,56 @@
 
 <br />
 
-## 📸 Section-by-Section Visual Showcase
+## 📸 Real Live Portfolio Walkthrough (Original Screenshots)
 
-Here is a visual walkthrough of every section of the portfolio, step-by-step:
+Below are the **real live original screenshots** captured directly from the running website, section-by-section in sequential order:
 
-### 1️⃣ Hero Section & Navigation
-> *Kinetic line mask headline, typewriter roles, 120fps magnetic cursor, and direct CTA controls.*
+---
+
+### 1️⃣ Hero Section & Interactive Controls
+> *Kinetic line mask headline, dynamic typewriter roles, status badge, and View Resume in-app modal launcher.*
 <p align="center">
-  <img src="public/raghavsdev_portfolio.png" width="95%" alt="01 Hero Section Showcase" />
+  <img src="public/screenshots/01_hero.png" width="95%" alt="Real OG Hero Section Screenshot" />
 </p>
 
-<br />
+---
 
 ### 2️⃣ Story & About Section
-> *Profile card, direct contact (Phone: +91 8807178840, Email: cdj90000@gmail.com), education at Sri Krishna College, and Oracle 86% Gen AI Certification.*
+> *Profile card, direct contact (Phone: +91 8807178840, Email: cdj90000@gmail.com), education at Sri Krishna College, and Oracle 86% Gen AI Certification card.*
 <p align="center">
-  <img src="public/rag_screenshot_real.png" width="95%" alt="02 About & Philosophy Showcase" />
+  <img src="public/screenshots/02_about.png" width="95%" alt="Real OG About Section Screenshot" />
 </p>
 
-<br />
+---
 
-### 3️⃣ Creations & Featured Projects
-> *Interactive 3D tilt cards showcasing RAG-Vision-AI, Plant Disease Prediction (98%), Placement Management System, and DigitalAudio.*
+### 3️⃣ Creations & Featured AI Projects Grid
+> *Hardware-accelerated 3D tilt cards showcasing RAG-Vision-AI, Plant Disease Prediction (98%), Placement Management System, Student Grade Prediction, and DigitalAudio.*
 <p align="center">
-  <img src="public/rag_chat_demo_real.png" width="95%" alt="03 Creations & Projects Showcase" />
+  <img src="public/screenshots/03_projects.png" width="95%" alt="Real OG Projects Grid Screenshot" />
 </p>
 
-<br />
+---
 
-### 4️⃣ Live Commercial Client Showcase (DigitalAudio)
-> *Live commercial responsive website deployed on Vercel presenting home theater installations, pro audio rental, and acoustic consultation.*
+### 4️⃣ Milestones & Engineering Experience
+> *Software Development Intern timeline (React, Spring Boot, MySQL, AWS deployment) and verified metrics grid.*
 <p align="center">
-  <img src="public/digital_audio_real.png" width="95%" alt="04 DigitalAudio Commercial Showcase" />
+  <img src="public/screenshots/04_experience.png" width="95%" alt="Real OG Experience & Milestones Screenshot" />
 </p>
 
-<br />
+---
 
-### 5️⃣ Milestones & Engineering Timeline
-> *Software Development Intern role (React, Spring Boot, MySQL, AWS deployment), verified metrics grid, and skill matrices.*
+### 5️⃣ Connect Hub, Light-Up Matrix Background & Vinyl Turntable Player
+> *Interactive 40px grid matrix lighting up with neon flame trail splashes (`#f84525`) on hover, paired with the side-docked Vinyl Turntable Player playing Borderline by Tame Impala (1.2x speed).*
 <p align="center">
-  <img src="public/project1.png" width="95%" alt="05 Milestones & Timeline Showcase" />
+  <img src="public/screenshots/05_connect.png" width="95%" alt="Real OG Connect Section & Matrix Grid Screenshot" />
 </p>
 
-<br />
+---
 
-### 6️⃣ Connect Hub & Light-Up Matrix Background
-> *Full-background interactive 40px grid matrix in Connect section with neon flame trail highlights (`#f84525`) on hover.*
+### 6️⃣ Complete Full Page Overview
+> *Full high-resolution vertical overview of the entire portfolio application.*
 <p align="center">
-  <img src="public/project2.png" width="95%" alt="06 Connect Hub & Matrix Grid Showcase" />
-</p>
-
-<br />
-
-### 7️⃣ Side-Docked Vinyl Turntable Player
-> *Tactile mini vinyl turntable playing Borderline by Tame Impala (1.2x) with animated tonearm needle and spinning 33 RPM disc.*
-<p align="center">
-  <img src="public/project3.png" width="95%" alt="07 Vinyl Player Showcase" />
+  <img src="public/screenshots/06_full_page.png" width="95%" alt="Real OG Full Page Screenshot" />
 </p>
 
 <br />
