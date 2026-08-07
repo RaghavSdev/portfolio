@@ -1,6 +1,7 @@
 import { ExternalLink, GitFork } from "lucide-react";
 import Image from "next/image";
 import { TiltCard } from "./Effects";
+import { getAssetPath } from "@/lib/utils";
 
 const projects = [
   {
@@ -125,7 +126,7 @@ export default function ProjectsSection() {
                   {/* Thumbnail Image Container */}
                   <div className="relative w-full h-40 mb-4 overflow-hidden border border-white/10 bg-black">
                     <Image
-                      src={p.img}
+                      src={getAssetPath(p.img)}
                       alt={p.title}
                       fill
                       className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 will-change-transform"

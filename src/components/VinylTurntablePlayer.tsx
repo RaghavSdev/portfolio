@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { Music2 } from "lucide-react";
+import { getAssetPath } from "@/lib/utils";
 
 export default function VinylTurntablePlayer() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -78,7 +79,7 @@ export default function VinylTurntablePlayer() {
         loop
         preload="auto"
       >
-        <source src="/borderline.mp3?v=2" type="audio/mpeg" />
+        <source src={getAssetPath("/borderline.mp3")} type="audio/mpeg" />
       </audio>
 
       {/* ONE SINGLE COMPACT VINYL CARD ONLY */}
