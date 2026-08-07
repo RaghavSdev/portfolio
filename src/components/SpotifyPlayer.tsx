@@ -82,7 +82,7 @@ export default function SpotifyPlayer() {
                 key={i}
                 className="w-1 bg-[#1DB954] transition-all duration-300 rounded-t-sm"
                 style={{
-                  height: isPlaying ? `${Math.max(15, (h * Math.random()).toFixed(0))}%` : "30%",
+                  height: isPlaying ? `${Math.max(15, Math.round(h * Math.random()))}%` : "30%",
                   opacity: isPlaying ? 1 : 0.4,
                 }}
               />

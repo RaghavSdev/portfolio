@@ -1,12 +1,18 @@
 <div align="center">
 
   <!-- Animated Typing Header Banner -->
-  <a href="https://github.com/RaghavSdev/portfolio">
+  <a href="https://raghavsdev.github.io/portfolio/">
     <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=34&duration=2500&pause=1000&color=F84525&center=true&vCenter=true&width=800&height=70&lines=RAGHAV+S+%E2%80%94+AI+%26+ML+ENGINEER;BUILDING+INTELLIGENT+AI+MODELS;DEPLOYING+PRODUCTION+SYSTEMS+AT+SCALE;NEXT.JS+16+%2F%2F+TAILWIND+V4+%2F%2F+PYTHON+ML" alt="Typing Header Banner" />
   </a>
 
   <p align="center">
     <strong>B.Sc. Artificial Intelligence & Machine Learning · Predictive Modeling · RAG Architect · AWS Cloud</strong>
+  </p>
+
+  <!-- LIVE WEBSITE BADGES -->
+  <p align="center">
+    <a href="https://raghavsdev.github.io/portfolio/"><img src="https://img.shields.io/badge/⚡_LIVE_DEMO-VISIT_WEBSITE-F84525?style=for-the-badge&logoColor=white" alt="Live Demo Website" /></a>
+    <a href="https://github.com/RaghavSdev/portfolio"><img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository" /></a>
   </p>
 
   <!-- Glowing Shields Badges -->
@@ -22,6 +28,13 @@
   <!-- Animated Wave Line Divider -->
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated Flame Wave Divider" />
 </div>
+
+<br />
+
+## 🌐 Live Website & Links
+
+* ⚡ **Live Website URL**: **[`https://raghavsdev.github.io/portfolio/`](https://raghavsdev.github.io/portfolio/)**
+* 📦 **GitHub Repository**: **[`https://github.com/RaghavSdev/portfolio`](https://github.com/RaghavSdev/portfolio)**
 
 <br />
 

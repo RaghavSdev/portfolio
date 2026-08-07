@@ -12,7 +12,7 @@ const ROLES = [
   "AWS Cloud Specialist",
 ];
 
-export default function HeroSection() {
+export default function HeroSection({ isLoaded }: { isLoaded?: boolean }) {
   const [roleIndex, setRoleIndex] = useState(0);
   const [startTextAnim, setStartTextAnim] = useState(false);
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
