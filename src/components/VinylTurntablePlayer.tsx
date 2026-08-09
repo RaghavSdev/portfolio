@@ -108,10 +108,10 @@ export default function VinylTurntablePlayer() {
             </div>
           </div>
 
-          {/* Interactive Tonearm Needle — Swings ONTO disc when playing */}
+          {/* Interactive Tonearm Needle — Swings ONTO disc when playing, OFF when paused */}
           <div
             className={`absolute top-0.5 right-0.5 w-4 h-7 pointer-events-none transition-transform duration-700 origin-top-right ${
-              isPlaying ? "rotate-[-12deg]" : "rotate-[28deg]"
+              isPlaying ? "rotate-[28deg]" : "rotate-[-25deg]"
             }`}
           >
             {/* Silver Arm Bar */}
