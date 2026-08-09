@@ -48,28 +48,6 @@ const projects = [
     source: "https://github.com/RaghavSdev",
     badge: "Enterprise System 🔒",
   },
-  {
-    id: "p5",
-    title: "Student Grade Prediction ML Model",
-    type: "Predictive Analytics",
-    desc: "Predictive machine learning models using Python and scikit-learn to forecast academic performance.",
-    img: "/project1.png",
-    tech: ["Python", "scikit-learn", "Pandas", "Analytics"],
-    demo: "https://github.com/RaghavSdev",
-    source: "https://github.com/RaghavSdev",
-    badge: "Predictive ML 📈",
-  },
-  {
-    id: "p6",
-    title: "RaghavSdev Portfolio",
-    type: "Personal Brand",
-    desc: "Developer portfolio powered by Next.js 16, Tailwind CSS v4, 120fps magnetic cursor, and vinyl player.",
-    img: "/raghavsdev_portfolio.png",
-    tech: ["Next.js 16", "TypeScript", "Tailwind v4", "Canvas"],
-    demo: "https://github.com/RaghavSdev/portfolio",
-    source: "https://github.com/RaghavSdev/portfolio",
-    badge: "Open Source ✦",
-  },
 ];
 
 export default function ProjectsSection() {
@@ -102,10 +80,10 @@ export default function ProjectsSection() {
           <span className="text-gradient-flame">AI MODELS &amp; WEB APPLICATIONS.</span>
         </h2>
 
-        {/* Grid of Projects */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Grid of Projects (Balanced 2x2 Grid for 4 Projects) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {projects.map((p, i) => (
-            <TiltCard key={p.id} className={`reveal reveal-d${(i % 3) + 1}`}>
+            <TiltCard key={p.id} className={`reveal reveal-d${(i % 2) + 1}`}>
               <article className="premium-card group flex flex-col justify-between p-5 rounded-none relative overflow-hidden h-full">
                 
                 {/* Top Badge & Header */}
