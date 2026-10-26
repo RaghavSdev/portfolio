@@ -48,6 +48,17 @@ const projects = [
     source: "https://github.com/RaghavSdev",
     badge: "Enterprise System 🔒",
   },
+  {
+    id: "glass-home",
+    title: "Glass Home — Android TV Launcher",
+    type: "Android TV / Open Source",
+    desc: "A native Android TV home screen with a glass dock, all eight chosen streaming apps, and quick wallpaper controls.",
+    img: "/glass-home-launcher.png",
+    tech: ["Java", "Android TV", "AndroidX", "Gradle"],
+    demo: "https://raghavsdev.github.io/Debloat-Android-TV/",
+    source: "https://github.com/RaghavSdev/Debloat-Android-TV",
+    badge: "Live Demo · Sony BRAVIA",
+  },
 ];
 
 export default function ProjectsSection() {
@@ -80,10 +91,13 @@ export default function ProjectsSection() {
           <span className="text-gradient-flame">AI MODELS &amp; WEB APPLICATIONS.</span>
         </h2>
 
-        {/* Grid of Projects (Balanced 2x2 Grid for 4 Projects) */}
+        {/* Grid of projects; center the final card when the count is odd. */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {projects.map((p, i) => (
-            <TiltCard key={p.id} className={`reveal reveal-d${(i % 2) + 1}`}>
+            <TiltCard
+              key={p.id}
+              className={`reveal reveal-d${(i % 2) + 1} ${projects.length % 2 === 1 && i === projects.length - 1 ? "md:col-span-2 md:w-1/2 md:justify-self-center" : ""}`}
+            >
               <article className="premium-card group flex flex-col justify-between p-5 rounded-none relative overflow-hidden h-full">
                 
                 {/* Top Badge & Header */}
@@ -102,10 +116,10 @@ export default function ProjectsSection() {
                   </h3>
 
                   {/* Thumbnail Image Container */}
-                  <div className="relative w-full h-40 mb-4 overflow-hidden border border-white/10 bg-black">
+                  <div className={`relative w-full mb-4 overflow-hidden border border-white/10 bg-black ${p.id === "glass-home" ? "aspect-video" : "h-40"}`}>
                     <Image
                       src={getAssetPath(p.img)}
-                      alt={p.title}
+                      alt={p.id === "glass-home" ? "Glass Home launcher running on a Sony BRAVIA television" : p.title}
                       fill
                       className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.16,1,0.3,1)] group-hover:scale-105 will-change-transform"
                       sizes="(max-width: 768px) 100vw, 33vw"
